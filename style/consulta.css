@@ -1,0 +1,39 @@
+.painelSaldo {
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .painelSaldo {
+        font-size: 28px;
+    }
+
+    .form-control {
+        margin-bottom: 10px;
+        /* Adicionando margem inferior nos dispositivos menores */
+    }
+}
+
+.consulta-title {
+    margin-bottom: 20px;
+}
+
+.consulta-form {
+    margin-bottom: 20px;
+}
+
+.consulta-table {
+    margin-top: 20px;
+}
+
+/* Estilos adicionais para tabela responsiva */
+.table-responsive {
+    overflow-x: auto;
+}
+
+#saldo {
+    font-size: 3rem;
+}
